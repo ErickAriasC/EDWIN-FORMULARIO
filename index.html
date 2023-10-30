@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>   
+    <title>Form Contact</title>
+</head>
+
+<body>
+    <h1 id="tittle">Formulario de Contacto</h1>
+    <div class="container_form">
+        <form id="form" action="">
+            <!-- Password -->
+            <input id="input-name" class="input-name" type="text" name="input-name" placeholder=" ">
+            <label class="label-input" for="input-name">Nombre Completo</label>
+
+            <!-- confirm-password -->
+            <input id="input-email" class="input-email" type="text" name="input-email" placeholder=" ">
+            <label class="label-input2" for="input-email">Email</label>
+
+            <!-- messaje -->
+            <textarea name="textarea" placeholder="Escribe tu mensaje aqui" id="message" cols="30" rows="10"></textarea>
+            <button id="send">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>
